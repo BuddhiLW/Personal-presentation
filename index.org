@@ -17,11 +17,10 @@
 #+AUTHOR: Pedro G. Branquinho
 #+OPTIONS: toc:nil
 
-
 * Access this presentation
 ** QR Code
-#+ATTR_HTML: :width 800px
-[[file:img/qr-concentrix.png][file:img/qr-concentrix.png]]
+#+ATTR_HTML: :width 600px
+[[file:img/qr-concentrix.png][file:img/qr-test.png]]
 * Hello there 😁
 ** Curious 👾
 :PROPERTIES:
@@ -145,7 +144,7 @@ Great at learning from:
 
 ** Advanced statistical analysis of Bidding prices
 *** Rplot
-#+ATTR_HTML: :width 1200px
+#+ATTR_HTML: :width 600px
 [[file:img/rplot.png][file:img/rplot.png]]
 * Projects
 ** HTML/CSS -- Instagram Replica
@@ -177,7 +176,7 @@ Great at learning from:
 - Not yet deployed.
 - Shopping site.
 
-#+ATTR_HTML: :width 1200px
+#+ATTR_HTML: :width 600px
 [[file:img/img-giggin.png][file:./img/img-giggin.png]]
 ** Clojure(Script) -- Certifications Portfolio
 :PROPERTIES:
@@ -213,7 +212,7 @@ Great at learning from:
     (find-file (lw/diary-day-entry))))
 #+end_src
 *** Note-taking (Diary) -- Elisp/Emacs
-#+ATTR_HTML: :width 1000px
+#+ATTR_HTML: :width 600px
 [[file:img/diary.png][file:./img/diary.png]]
 ** Trading Bot
 Code (FOSS):
@@ -239,7 +238,7 @@ Generate =Invoice= payment bills.
 *** Server-side Webhook responses
 - Deal with =POST= requests, from Webhook.
 - Responses from Invoice Generation
-#+ATTR_HTML: :width 800px
+#+ATTR_HTML: :width 600px
 [[file:img/request-bin.png][file:img/request-bin.png]]
 
 * Goals
@@ -255,4 +254,3 @@ Generate =Invoice= payment bills.
 - Different background perspective.
 - Unusual techniques.
 - Cutting-edge technologies mastery.
-# - Old-school knowledge.
