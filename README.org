@@ -1,0 +1,261 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+# #+REVEAL_THEME: sky
+#+REVEAL_EXTRA_CSS: ./css/blood.css
+#+REVEAL_EXTRA_CSS: ./css/fonts.css
+#+REVEAL_EXTERNAL_PLUGINS: (spotlight "js/spotlight.js" "plugin/spotlight.js")
+#+REVEAL_EXTRA_SCRIPT_SRC: ./js/caption.js
+#+REVEAL_EXTRA_SCRIPT_SRC: ./js/style.js
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: https://cdn.jsdelivr.net/npm/reveal.js@4.2.0/plugin/highlight/monokai.css
+#+OPTIONS: reveal_global_footer:t
+#+OPTIONS: timestamp:nil toc:2 num:nil
+:END:
+
+#+title: My zeitgeist
+#+AUTHOR: Pedro G. Branquinho
+#+OPTIONS: toc:nil
+
+
+* Hello there 😁
+** Curious 👾
+:PROPERTIES:
+:reveal_background_iframe: https://www.buddhilw.com/pages-output/web-dev/
+:reveal_background: rgb(250,250,250)
+:reveal_foreground: rgb(100,0,100)
+:reveal_background_opacity: 0.90
+:reveal_data_state: title__alien--state
+:html_container_class: title__alien--class
+:END:
+** Self-taught
+Great at learning from:
+#+ATTR_REVEAL: :frag (appear)
+- Documentation 📑
+- Books 📚
+- Video-Courses 📹
+- People's shared experiences 🤓👂
+** Thriving programmer
+#+ATTR_REVEAL: :frag (appear)
+- Industry: small and big.
+- Crafted-solutions: acted upon backend automation-of-tasks.
+** My github
+:PROPERTIES:
+:reveal_background_iframe: https://github.com/BuddhiLW/
+:reveal_background: rgb(250,250,250)
+:reveal_foreground: rgb(100,0,100)
+:reveal_background_opacity: 0.90
+:reveal_data_state: title__alien--state
+:html_container_class: title__alien--class
+:END:
+
+* Programming
+** Clojure(Script) Developer 
+#+ATTR_REVEAL: :frag (appear)
+-   Fullstack web development.
+- Use *Java*  /and/ *Javascript* .
+- *Integrate*.
+** Fundamental knowledge 📚
+#+ATTR_REVEAL: :frag (highlight-current-red)
+- Emacs 
+- Linux  (Arch + Debian )
+- Bash  + Go + Python 
+- HTML  + CSS  + JavaScript 
+- Git  
+- *Coffee *.
+#  
+#     
+#        
+#   
+#      
+** Related to Numerical Computing
+#+ATTR_REVEAL: :frag (highlight-current-red)
++ ODE/PDEs and Multivariate Statistics.
++ Julia;
++ Python;
++ R.
+
+** My formal education
+#+ATTR_REVEAL: :frag (highlight-current-red)
+- Engineer Physicist at USP.
+- Programming experience with:
+  - Statistics.
+  - Numerical computing.
+    - Repositories:
+      - https://github.com/BuddhiLW/EEL-USP
+      - https://github.com/BuddhiLW/DatasetsEstatistica
+      - https://github.com/BuddhiLW/EEL_EstatMultiVarRN
+      - https://github.com/BuddhiLW/30-HypothesisTesting
+      - https://github.com/BuddhiLW/StatsWithJuliaBook
+      - https://github.com/BuddhiLW/Minicurso-LaTeX-SEMEFVIII
+      - https://github.com/BuddhiLW/ClassImbalance.jl
+      - https://github.com/BuddhiLW/Blackjack-Simulations
+
+* Languages I speak 
+#+ATTR_REVEAL: :frag (appear)
+- Portuguese 🇧🇷 -- Native
+- English 🇺🇸    -- C2 (Maximum-range score)
+- Mandarin 🇨🇳   -- Basic (currently learning)
+* Jobs
+** Lupo S.A.
+#+ATTR_REVEAL: :frag (appear)
+- Technical Report Automation.
+- Inventory of 300+ machines.
+- Used Clojure (not best choice).
+- Code: https://github.com/BuddhiLW/CloshBashika
+*** Example
+#+ATTR_HTML: :width 1200px
+[[file:img/lupo.jpg][file:img/lupo.jpg]]
+
+** Flow Finance
+#+ATTR_REVEAL: :frag (appear)
+- Clarence and Leadger
+- Automate billing
+- APIs and Routing
+- Clojure(Script)
+- Code: https://github.com/BuddhiLW/commons-csv-clj
+*** Example
+#+begin_src clojure :eval no
+(defn cnpj#
+  "take a =CNPJ-value= and narrow down to the subclass which has this CNPJ"
+  [CNPJ-value vec-revenues]
+  (filter #(submap? {:CNPJ CNPJ-value} %) vec-revenues))
+#+end_src
+
+#+begin_src clojure :eval no
+(cnpj# "17194123000103" vec-revenues)
+#+end_src
+*** Literate documentation
+#+ATTR_HTML: :width 1200px
+[[file:img/FlowFinance.png][file:img/FlowFinance.png]]
+** Café do Bem (NPO)
+#+ATTR_REVEAL: :frag (appear)
+- High quality coffee.
+- The gains returns to coffee producers.
+- Resilience for the coffee community.
+- https://cafe-do-bem.company.site/
+
+*** The website
+#+ATTR_HTML: :width 1200px
+[[file:img/cafe-do-bem.png][file:img/cafe-do-bem.png]]
+
+** Advanced statistical analysis of Bidding prices
+:PROPERTIES:
+:reveal_background_iframe: https://www.linkedin.com/posts/pedro-g-branquinho_ti-bigdata-pipeline-activity-6884123710182313984-zqFv?utm_source=share&utm_medium=member_desktop
+:reveal_background: rgb(250,250,250)
+:reveal_foreground: rgb(100,0,100)
+:reveal_background_opacity: 0.90
+:html_container_class: title__cards
+:END:
+*** Rplot
+#+ATTR_HTML: :width 1200px
+[[file:img/rplot.png][file:img/rplot.png]]
+* Projects
+** HTML/CSS -- Instagram Replica
+:PROPERTIES:
+:reveal_background_iframe: https://buddhilw.github.io/Instagram-replica/
+:reveal_background: rgb(250,250,250)
+:reveal_foreground: rgb(100,0,100)
+:reveal_background_opacity: 0.90
+:html_container_class: title__cards
+:END:
+** JS/Elm -- Matching Cards game
+:PROPERTIES:
+:reveal_background_iframe: https://buddhilw.github.io/MatchingCards/
+:reveal_background: rgb(250,250,250)
+:reveal_foreground: rgb(100,0,100)
+:reveal_background_opacity: 0.90
+:html_container_class: title__cards
+:END:
+** Clojure(Script) -- Personal Website
+:PROPERTIES:
+:reveal_background_iframe: https://www.buddhilw.com/
+:reveal_background: rgb(250,250,250)
+:reveal_foreground: rgb(100,0,100)
+:reveal_background_opacity: 0.90
+:html_container_class: title__cards
+:END:
+
+** Clojure(Script) -- Giggin
+- Not yet deployed.
+- Shopping site.
+
+#+ATTR_HTML: :width 1200px
+[[file:img/img-giggin.png][file:./img/img-giggin.png]]
+** Clojure(Script) -- Certifications Portfolio
+:PROPERTIES:
+:reveal_background_iframe: https://buddhilw.github.io/bug-free-fiesta/
+:reveal_background: rgb(250,250,250)
+:reveal_foreground: rgb(100,0,100)
+:reveal_background_opacity: 0.90
+:html_container_class: title__cards
+:END:
+
+** System's functionalities
+*** Pomodoro -- Go/Bash
+- Self-management.
+- Data collection.
+- Statistics about yourself.
+
+#+ATTR_HTML: :width 500px
+[[file:img/pomo.png][file:./img/pomo.png]]
+
+*** Note-taking (Diary) -- Elisp/Emacs
+- Take notes, whitout the need to thing too much.
+- Bind it to three key-strokes.
+
+#+begin_src emacs-lisp :tangle yes
+(defun lw/create-or-access-diary ()
+  (interactive)
+  (if (not (file-exists-p (lw/diary-day-entry)))
+      (or (write-region
+           (format "#+TITLE: %s" (shell-command-to-string "echo -n $(date +%Y-%m-%d) \n"))
+           nil
+           (lw/diary-day-entry))
+          (find-file (lw/diary-day-entry)))
+    (find-file (lw/diary-day-entry))))
+#+end_src
+*** Note-taking (Diary) -- Elisp/Emacs
+#+ATTR_HTML: :width 1000px
+[[file:img/diary.png][file:./img/diary.png]]
+** Trading Bot
+Code (FOSS):
+- https://github.com/freqtrade/freqtrade
+- https://github.com/BuddhiLW/studious-carnival
+- https://github.com/BuddhiLW/FreqTrade-backtesting
+
+** API Integration to Stark Bank
+- Access: https://github.com/BuddhiLW/stark-challenge
+*** Main tasks - Invoice generation
+Generate =Invoice= payment bills.
+#+begin_src clojure :eval no
+(invoice/create [(help/gen-invoice-map
+                  (help/r-amount 100000)
+                  (first (map help/due-timestamp (help/gen-three-hours)))
+                  (cnpj/gen)
+                  (names/name-maker)
+                  (help/r-exp)
+                  (help/r-fine)
+                  (help/r-interest)
+                  help/descr-ex)])
+#+end_src
+*** Server-side Webhook responses
+- Deal with =POST= requests, from Webhook.
+- Responses from Invoice Generation
+#+ATTR_HTML: :width 800px
+[[file:img/request-bin.png][file:img/request-bin.png]]
+
+* Goals
+** Next steps
+#+ATTR_REVEAL: :frag (highlight-current-green)
+- Write meaningful software.
+  - Win satisfactory money for it ($30-40K/year).
+  - ~1500$-2500$ monthly.
+- Educate myself continuously.
+** What I bring to the table
+#+ATTR_REVEAL: :frag (highlight-current-green)
+- Relentless development and growth.
+- Different background perspective.
+- Unusual techniques.
+- Cutting-edge technologies mastery.
+# - Old-school knowledge.
