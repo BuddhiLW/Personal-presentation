@@ -17,7 +17,6 @@
 #+AUTHOR: Pedro G. Branquinho
 #+OPTIONS: toc:nil
 
-
 * Hello there 😁
 ** Curious 👾
 :PROPERTIES:
@@ -57,12 +56,12 @@ Great at learning from:
 - *Integrate*.
 ** Fundamental knowledge 📚
 #+ATTR_REVEAL: :frag (highlight-current-red)
-- Emacs 
-- Linux  (Arch + Debian )
-- Bash  + Go + Python 
-- HTML  + CSS  + JavaScript 
-- Git  
-- *Coffee *.
+- Emacs  + Vim (Editor)
+- Linux  (Arch + Debian ) (OS)
+- Bash  + Go + Python  (Scripting)
+- HTML  + CSS  + JavaScript  (Web)
+- Git(hub)   (Version Control)
+- *Coffee * (To stay awake).
 #  
 #     
 #        
@@ -139,17 +138,97 @@ Great at learning from:
 #+ATTR_HTML: :width 1200px
 [[file:img/cafe-do-bem.png][file:img/cafe-do-bem.png]]
 
-** Advanced statistical analysis of Bidding prices
-:PROPERTIES:
-:reveal_background_iframe: https://www.linkedin.com/posts/pedro-g-branquinho_ti-bigdata-pipeline-activity-6884123710182313984-zqFv?utm_source=share&utm_medium=member_desktop
-:reveal_background: rgb(250,250,250)
-:reveal_foreground: rgb(100,0,100)
-:reveal_background_opacity: 0.90
-:html_container_class: title__cards
-:END:
-*** Rplot
+** As a Contractor
+*** Advanced statistical analysis of Bidding prices
+***** Grouping in Categories
 #+ATTR_HTML: :width 1200px
 [[file:img/rplot.png][file:img/rplot.png]]
+*** Data converter XML to CSV
+#+begin_src xml
+<?xml version='1.0' encoding='utf-8'?>
+<ns3:Servico>
+  <ns3:Valores>
+    <ns3:ValorServicos>102349.00</ns3:ValorServicos>
+    <ns3:IssRetido>2</ns3:IssRetido>
+    <ns3:ValorIss>0.00</ns3:ValorIss>
+    <ns3:BaseCalculo>102349.00</ns3:BaseCalculo>
+    <ns3:Aliquota>0.0425</ns3:Aliquota>
+    <ns3:ValorLiquidoNfse>102349.00</ns3:ValorLiquidoNfse>
+    <ns3:ValorIssRetido>0</ns3:ValorIssRetido>
+  </ns3:Valores>
+  <ns3:ItemListaServico>2501</ns3:ItemListaServico>
+  <ns3:CodigoTributacaoMunicipio>
+  960330400</ns3:CodigoTributacaoMunicipio>
+  <ns3:Discriminacao>- PLANOS FUNERÁRIOS RECEBIDOS EM MARÇO -
+  R$ 102.349,00 - VALOR APROXIMADO DOS TRIBUTOS - R$
+  13.366,78</ns3:Discriminacao>
+  <ns3:MunicipioPrestacaoServico>
+  3516200</ns3:MunicipioPrestacaoServico>
+</ns3:Servico>
+#+end_src
+*** Data converter XML to CSV
+- 2409 instances of data.
+#+begin_src csv
+Date, Prestador, RazaoSocial, CPF, Tributos, ValorServico
+2018-01-05T10:32:20, FUNERARIA FRANCANA LTDA, RITA APARECIDA PEREIRA DA SILVA, 19636387869, 456.48, 3600.0
+#+end_src
+*** Analysis of Growth
+#+ATTR_HTML: :width 1000px
+[[file:img/Arrecadamento.png]]
+*** Analysis of =Tax= and =Revenues=
+#+ATTR_HTML: :width 1000px
+[[file:img/Dist-serv.png]]
+
+*** Analysis of =Tax= and =Revenues=
+#+ATTR_HTML: :width 1000px
+[[file:img/Serv-z.png]]
+
+*** Analysis of =Tax= and =Revenues=
+#+ATTR_HTML: :width 1000px
+[[file:img/Dist-trib.png]]
+
+*** Find and explain abnormalities in =Revenue=
+#+begin_src julia :exports both :eval no
+subset(df_mmz, :Serv_z => ByRow(<(-1.5)))
+#+end_src
+#+RESULTS:
+#+begin_example
+8×6 DataFrame
+ Row │ Data_function  Tributos_sum  ValorServico_sum  id     Trib_z    Serv_z
+     │ Tuple…         Float64       Float64           Int64  Float64   Float64
+─────┼──────────────────────────────────────────────────────────────────────────
+   1 │ (2018, 5)          11417.4            83590.0      5  -1.67904  -1.90722
+   2 │ (2018, 7)          13226.0            96458.0      7  -1.35084  -1.51121
+   3 │ (2018, 8)          12309.0            89650.0      8  -1.51725  -1.72072
+   4 │ (2018, 9)          10813.5            80870.0      9  -1.78863  -1.99092
+   5 │ (2018, 10)         11929.1            86760.0     10  -1.58619  -1.80966
+   6 │ (2018, 11)         11754.4            86400.0     11  -1.61789  -1.82074
+   7 │ (2018, 12)         11934.2            89160.0     12  -1.58526  -1.7358
+   8 │ (2019, 6)           9095.84           69021.4     18  -2.10034  -2.35555
+#+end_example
+
+*** Correlation between =Tax= and =Income=
+#+begin_src julia :exports both :eval no
+cor(df_mm.Tributos_sum, df_mm.ValorServico_sum)
+#+end_src
+#+RESULTS:
+: 89.12%
+*** Hypothesis test data on equal variation
+- Julia interoperation with R.
+#+begin_src julia :exports both :eval no
+trib_z = df_mmz.Trib_z
+val_serv_z = df_mmz.Serv_z
+R"var.test($trib_z, y = $val_serv_z)"
+#+end_src
+
+#+RESULTS:
+#+begin_example
+        F test to compare two variances
+
+data:  `#JL`$trib_z and `#JL`$val_serv_z
+F = 1, num df = 56, denom df = 56, p-value = 1
+#+end_example
+
 * Projects
 ** HTML/CSS -- Instagram Replica
 :PROPERTIES:
@@ -247,15 +326,16 @@ Generate =Invoice= payment bills.
 
 * Goals
 ** Next steps
-#+ATTR_REVEAL: :frag (highlight-current-green)
+#+ATTR_REVEAL: :frag (highlight-current-blue)
 - Write meaningful software.
-  - Win satisfactory money for it ($30-40K/year).
-  - ~1500$-2500$ monthly.
+- ~1000$-1500$ monthly(?).
+  - Enough to live and pay my own housing.
 - Educate myself continuously.
+
 ** What I bring to the table
 #+ATTR_REVEAL: :frag (highlight-current-green)
 - Relentless development and growth.
 - Different background perspective.
 - Unusual techniques.
 - Cutting-edge technologies mastery.
-# - Old-school knowledge.
+- Converse between old-school and current technologies.
