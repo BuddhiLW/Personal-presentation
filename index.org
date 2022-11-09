@@ -13,7 +13,7 @@
 #+OPTIONS: timestamp:nil toc:2 num:nil
 :END:
 
-#+title: My zeitgeist
+#+title: My Zeitgeist
 #+AUTHOR: Pedro G. Branquinho
 #+OPTIONS: toc:nil
 
@@ -43,15 +43,8 @@ Great at learning from:
 - Industry: small and big.
 - Crafted-solutions: acted upon backend automation-of-tasks.
 ** My github
-:PROPERTIES:
-:reveal_background_iframe: https://github.com/BuddhiLW/
-:reveal_background: rgb(250,250,250)
-:reveal_foreground: rgb(100,0,100)
-:reveal_background_opacity: 0.90
-:reveal_data_state: title__alien--state
-:html_container_class: title__alien--class
-:END:
-
+#+ATTR_HTML: :width 1000px
+[[file:img/github.png]]
 * Programming
 ** Clojure(Script) Developer 
 #+ATTR_REVEAL: :frag (appear)
@@ -369,16 +362,30 @@ Generate =Invoice= payment bills.
 #+ATTR_HTML: :width 600px
 [[file:img/request-bin.png][file:img/request-bin.png]]
 
-* Goals
+* Near future Goals
+** Courses
+*** Backend by Meta
+#+ATTR_HTML: :width 1000px
+[[file:img/meta-backend.png]]
+
+*** Cloud Engineer by Linux Foundation
+#+ATTR_HTML: :width 1000px
+[[file:img/linux-bootcamp.png]]
+
+*** Cloud Engineer by Linux Foundation
+#+ATTR_HTML: :width 1000px
+[[file:img/linux-bootcamp-content.png]]
 ** Next steps
-#+ATTR_REVEAL: :frag (highlight-current-green)
+#+ATTR_REVEAL: :frag (highlight-current-blue)
 - Write meaningful software.
-  - Win satisfactory money for it ($30-40K/year).
-  - ~1500$-2500$ monthly.
-- Educate myself continuously.
+- ~1000$-1500$ monthly(?).
+  - Enough to live and pay my own housing.
+- Linux Foundation Certificates
 ** What I bring to the table
 #+ATTR_REVEAL: :frag (highlight-current-green)
 - Relentless development and growth.
+  - Learn any technologies left, which are required for the job.
 - Different background perspective.
 - Unusual techniques.
 - Cutting-edge technologies mastery.
+- Converse between old-school and current technologies.
