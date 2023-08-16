@@ -154,7 +154,7 @@ In the University of São Paulo and Freelancing:
 =Fundação de Apoio à Capacitação de Tecnologia da Informação=.
 *** Help desk app (a week)
 :PROPERTIES:
-:reveal_background_iframe: https://buddhilw.github.io/faq/
+:reveal_background_iframe: https://buddhilw.github.io/support-app/
 :reveal_background: rgb(250,250,250)
 :reveal_foreground: rgb(100,0,100)
 :reveal_background_opacity: 0.90
