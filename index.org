@@ -32,12 +32,14 @@
 :html_container_class: title__alien--class
 :END:
 ** Love to build useful little apps 🎆
+:PROPERTIES:
 :reveal_background_iframe: http://buddhilw.free-riding.cloud/
 :reveal_background: rgb(250,250,250)
 :reveal_foreground: rgb(100,0,100)
 :reveal_background_opacity: 0.90
 :reveal_data_state: title__alien--state
 :html_container_class: title__alien--class
+:END:
 ** Self-taught
 Great at learning from:
 #+ATTR_REVEAL: :frag (appear)
