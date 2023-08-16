@@ -40,6 +40,8 @@
 :reveal_data_state: title__alien--state
 :html_container_class: title__alien--class
 :END:
+- Link: http://buddhilw.free-riding.cloud/
+
 ** Self-taught
 Great at learning from:
 #+ATTR_REVEAL: :frag (appear)
@@ -391,29 +393,30 @@ Generate =Invoice= payment bills.
 [[file:img/request-bin.png][file:img/request-bin.png]]
 
 * Near future Goals
-** Courses
-*** Backend by Meta
-#+ATTR_HTML: :width 1000px
-[[file:img/meta-backend.png]]
+# ** Courses
+# *** Backend by Meta
+# #+ATTR_HTML: :width 1000px
+# [[file:img/meta-backend.png]]
 
-*** Cloud Engineer by Linux Foundation
-#+ATTR_HTML: :width 1000px
-[[file:img/linux-bootcamp.png]]
+# *** Cloud Engineer by Linux Foundation
+# #+ATTR_HTML: :width 1000px
+# [[file:img/linux-bootcamp.png]]
 
-*** Cloud Engineer by Linux Foundation
-#+ATTR_HTML: :width 1000px
-[[file:img/linux-bootcamp-content.png]]
+# *** Cloud Engineer by Linux Foundation
+# #+ATTR_HTML: :width 1000px
+# [[file:img/linux-bootcamp-content.png]]
 ** Next steps
 #+ATTR_REVEAL: :frag (highlight-current-blue)
 - Write meaningful software.
-- ~1000$-1500$ monthly(?).
+- ~$2000-4000$ ($ USD) monthly.
   - Enough to live and pay my own housing.
-- Linux Foundation Certificates
+- Educate myself continuously.
+
 ** What I bring to the table
 #+ATTR_REVEAL: :frag (highlight-current-green)
 - Relentless development and growth.
-  - Learn any technologies left, which are required for the job.
+  - Willing to learn whatever skill to make the job done.
 - Different background perspective.
 - Unusual techniques.
 - Cutting-edge technologies mastery.
-- Converse between old-school and current technologies.
+- An *integration* between old-school and current technologies.
