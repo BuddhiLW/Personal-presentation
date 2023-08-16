@@ -118,7 +118,7 @@ In the University of São Paulo and Freelancing:
 [[file:img/lupo.jpg][file:img/lupo.jpg]]
 *** Freelance with a group of Safety Engineers
 #+ATTR_HTML: :width 1000px
-
+[[file:img/lupo2.jpeg]]
 ** Flow Finance
 #+ATTR_REVEAL: :frag (appear)
 - Clarence and Leadger
