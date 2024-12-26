@@ -13,14 +13,16 @@
 #+OPTIONS: timestamp:nil toc:2 num:nil
 :END:
 
-#+title: My Zeitgeist!!
+#+title: My Journey
 #+AUTHOR: Pedro G. Branquinho
 #+OPTIONS: toc:nil
 
-* Access this presentation
+* View this presentation
 ** QR Code
 #+ATTR_HTML: :width 600px
-[[file:img/qr-concentrix.png][file:img/qr-test.png]]
+[[file:img/qrcode-presentation.png]]
+
+
 * Hello there 😁
 ** Curious 👾
 :PROPERTIES:
@@ -55,11 +57,9 @@ Great at learning from:
 - Crafted-solutions: acted upon workflow automation in the back-end.
 - Have been working on full-stack apps for 2 year.
 ** My github
-#+ATTR_HTML: :width 1000px
-[[file:img/github.png]]
-** Now-a-days
-#+ATTR_HTML: :width 1000px
-[[file:img/github2.png]]
+#+ATTR_HTML: :width 500px
+[[file:img/github3.png]]
+
 * Programming
 ** Clojure(Script) Developer 
 #+ATTR_REVEAL: :frag (appear)
@@ -107,8 +107,10 @@ In the University of São Paulo and Freelancing:
 #+ATTR_REVEAL: :frag (appear)
 - Portuguese 🇧🇷 -- Native
 - English 🇺🇸    -- C2 (Maximum-range score)
-- Mandarin 🇨🇳   -- Basic (currently learning)
-* Jobs
+- Mandarin 🇨🇳   -- Basic
+- Russian 🇷🇺   -- Basic
+
+* Job Experience
 ** Lupo S.A.
 #+ATTR_REVEAL: :frag (appear)
 - Technical Report Automation.
@@ -164,7 +166,6 @@ In the University of São Paulo and Freelancing:
 :html_container_class: title__alien--class
 :END:
 *** Fast PDFs with a lot of banking data
-
 ** As a Contractor
 *** Advanced statistical analysis of Bidding prices
 ***** Grouping in Categories
@@ -297,6 +298,16 @@ data:  `#JL`$trib_z and `#JL`$val_serv_z
 F = 1, num df = 56, denom df = 56, p-value = 1
 #+end_example
 
+** Orasis Holding
+#+ATTR_REVEAL: :frag (appear)
+- SAGA pattern
+- Microsservices inter-communication
+- gRPC + Kafka (RedPanda)
+- Restful servers (HTTP1/2)
+
+#+ATTR_HTML: :width 1000px
+[[file:img/orasis-holding.png]]
+
 * Projects
 ** HTML/CSS -- Instagram Replica
 :PROPERTIES:
@@ -393,29 +404,10 @@ Generate =Invoice= payment bills.
 [[file:img/request-bin.png][file:img/request-bin.png]]
 
 * Near future Goals
-# ** Courses
-# *** Backend by Meta
-# #+ATTR_HTML: :width 1000px
-# [[file:img/meta-backend.png]]
-
-# *** Cloud Engineer by Linux Foundation
-# #+ATTR_HTML: :width 1000px
-# [[file:img/linux-bootcamp.png]]
-
-# *** Cloud Engineer by Linux Foundation
-# #+ATTR_HTML: :width 1000px
-# [[file:img/linux-bootcamp-content.png]]
 ** Next steps
-#+ATTR_REVEAL: :frag (highlight-current-blue)
-- Write meaningful software.
-- 2000$-4000$ monthly.
-- Linux Foundation Certificates.
 
-** What I bring to the table
-#+ATTR_REVEAL: :frag (highlight-current-green)
-- Relentless development and growth.
-  - Willing to learn whatever skill to make the job done.
-- Different background perspective.
-- Unusual techniques.
-- Cutting-edge technologies mastery.
-- An *integration* between old-school and current technologies.
+#+ATTR_REVEAL: :frag (highlight-current-blue)
+- Write meaningful software ✅.
+- 2000$ - 4000$ monthly ✅.
+- Full Cycle MBA ⚙.
+- *Passive income* greater than my *Active income* ⚙.
